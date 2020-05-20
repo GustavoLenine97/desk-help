@@ -11,7 +11,7 @@
 <div class="col-lg-3 col-xs-6">
     <div class="small-box bg-green">
         <div class="inner">
-            <a href="{{ route('teste') }}" style="color:white"><h3>{{ $subcat->DescricaoSubCategoria }}</h3></a>
+            <a href="" style="color:white"><h3>{{ $subcat->DescricaoSubCategoria }}</h3></a>
         </div>
     </div>
 </div>
