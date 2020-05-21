@@ -47,7 +47,7 @@ Route::get('categoria/Hardware','CategoriaController@hardware')->name('hardware'
 
 Route::get('categoria/Software','CategoriaController@software')->name('software');
 
-Route::get('categoria/find/{request}','CategoriaController@find');
+Route::get('categoria/subcategoria/find/{request}','CategoriaController@find');
 
 Route::get('categoria/subcategoria/{request}','CategoriaController@subcategoria');
 
